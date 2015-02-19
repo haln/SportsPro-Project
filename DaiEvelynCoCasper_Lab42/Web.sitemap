@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="~/Default.aspx" title="Home"  description="">
-        <siteMapNode url="~/CustomerSupport.aspx" title="Customer Support"  description="">
-          <siteMapNode url="~/RegisterProducts.aspx" title="Register Products" description=""/>
-          <siteMapNode url="~/CustomerSurvey.aspx" title="Complete Customer Survey" description=""/>
-          <siteMapNode url="~/ContactUs.aspx" title="Contact Us" description=""/>
-        </siteMapNode>
-        <siteMapNode url="~/TechnicalSupport.aspx" title="Technical Support"  description="" />
+      <siteMapNode url="~/CustomerSupport.aspx" title="Customer Support"  description="">
+        <siteMapNode url="~/RegisterProducts.aspx" title="Register Products" description=""/>
+        <siteMapNode url="~/CustomerSurvey.aspx" title="Complete Customer Survey" description=""/>
+        <siteMapNode url="~/ContactUs.aspx" title="Contact Us" description=""/>
+      </siteMapNode>
+      <siteMapNode url="~/TechnicianSupport.aspx" title="Technical Support"  description="" >
+        <siteMapNode url="~/CustomerIncidentDisplay.aspx" title="Display Customer Incidents"/>
+        <siteMapNode url="~/IncidentUpdate.aspx" title="Update Incidents" description=""/>
+      </siteMapNode>
+      <siteMapNode url="~/Administration.aspx" title="Administration">
+        <siteMapNode url="~/ProductMaintenance.aspx" title="Maintain Products" description=""/>
+        <siteMapNode url="~/CustomerMaintenance.aspx" title="Maintain Customers" description=""/>
+        <siteMapNode url="~/TechnicianMaintenance.aspx" title="Maintain Technicians" description=""/>
+        <siteMapNode url="~/IncidentDisplay.aspx" title="Display Incidents" description=""/>
+        <siteMapNode url="~/customerDisplay.aspx" title="Display Customers" description=""/>
+        <siteMapNode url="~/TechnicianIncidentSummary.aspx" title="Display Incidents by Technician" description=""/>
+      </siteMapNode>
     </siteMapNode>
 </siteMap>
