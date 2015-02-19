@@ -14,13 +14,8 @@
         <h3>Sports management software for the sports enthusiast</h3>
         <%-- <asp:SiteMapPath ID="SiteMapPath1" runat="server" />
             --%>
-        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
-        <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" StartingNodeUrl="~/CustomerSupport.aspx" />
-        <asp:SiteMapDataSource ID="SiteMapDataSource3" runat="server" StartingNodeUrl="~/TechnicianSupport.aspx" />
-        <asp:SiteMapDataSource ID="SiteMapDataSource4" runat="server" StartingNodeUrl="~/Administration.aspx" StartingNodeOffset="1" />
-        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource2"></asp:Menu>
-        <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource3"></asp:Menu>
-        <asp:Menu ID="Menu3" runat="server" DataSourceID="SiteMapDataSource4"></asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu><a href="Map.aspx">Sitemap</a>
         <div>
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                 
