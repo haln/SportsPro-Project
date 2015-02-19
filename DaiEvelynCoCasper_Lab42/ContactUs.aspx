@@ -12,6 +12,7 @@
         <tr>
         <td>Phone:</td>
             <td>1-800-555-0400<br/>Weekdays, 8 to Pacific Time</td>
+            <td></td>
         </tr>
         <tr>
         <td>E-mail:</td>
