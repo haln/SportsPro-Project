@@ -1,0 +1,22 @@
+﻿header{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 52px;
+    font-family: Arial
+}
+
+h3 {
+    color: red;
+}
+
+body {
+    border: solid;
+    border-color: blue;
+    padding: 1em;
+}
+
+label{
+    width: 10em;
+    float: left;
+}

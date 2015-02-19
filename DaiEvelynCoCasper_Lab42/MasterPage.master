@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="SportsProStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>SportsPro</header>
+        <h3>Sports management software for the sports enthusiast</h3>
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" />
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <div>
+            <a href="customerDisplay.aspx">Display Customers</a>
+            <a href="CustomerSurvey.aspx">Complete Survey</a>
+            <a href="ContactUs.aspx">Contact Us</a>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+     <p>To contact us, call us at 800-555-0400 or email us at <a href="“mailto:sportspro@sportsprosoftware.com">Sportspro@sportsprosoftware.com</a></p>     
+    <asp:ContentPlaceHolder id="footer" runat="server">
+            </asp:ContentPlaceHolder>
+    </footer>
+</body>
+
+</html>
