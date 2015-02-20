@@ -14,20 +14,20 @@
         <br />
             <table>
                 <tr>
-                    <td><label id="address">Address: </label></td>
+                    <td class="tableItem"><label id="address">Address: </label></td>
                     <td><asp:Label ID="labelAddress" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
-                    <td><label id="phone">Phone: </label></td>
+                    <td class="tableItem"><label id="phone">Phone: </label></td>
                     <td><asp:Label ID="labelPhone" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
-                    <td><label id="email">Email: </label></td>
+                    <td class="tableItem"><label id="email">Email: </label></td>
                     <td><asp:Label ID="LabelEmail" runat="server" ></asp:Label></td>
                 </tr>
             </table>
         
-        <asp:Button ID="addToList" runat="server" OnClick="addToList_Click" style="height: 26px" Text="Add to Contact List" />
+        <asp:Button ID="addToList" runat="server" OnClick="addToList_Click" Text="Add to Contact List" />
         <asp:Button ID="displayContacts" runat="server" OnClick="displayContacts_Click" Text="Display Contact List" />
         <br />
         <br />

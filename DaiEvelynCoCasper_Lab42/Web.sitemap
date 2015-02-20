@@ -2,7 +2,7 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="~/Default.aspx" title="Home"  description="">
       <siteMapNode url="~/CustomerSupport.aspx" title="Customer Support"  description="">
-        <siteMapNode url="~/RegisterProducts.aspx" title="Register Products" description=""/>
+        <siteMapNode url="~/ProductRegistration.aspx" title="Register Products" description=""/>
         <siteMapNode url="~/CustomerSurvey.aspx" title="Complete Customer Survey" description=""/>
         <siteMapNode url="~/ContactUs.aspx" title="Contact Us" description=""/>
       </siteMapNode>
@@ -18,5 +18,6 @@
         <siteMapNode url="~/customerDisplay.aspx" title="Display Customers" description=""/>
         <siteMapNode url="~/TechnicianIncidentSummary.aspx" title="Display Incidents by Technician" description=""/>
       </siteMapNode>
+      <siteMapNode url="Map.aspx" title="Site map" description=""></siteMapNode>
     </siteMapNode>
 </siteMap>

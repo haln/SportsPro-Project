@@ -14,9 +14,34 @@ body {
     border: solid;
     border-color: blue;
     padding: 1em;
+    font-family:Arial;
+    font-size:16px;
 }
 
 label{
     width: 10em;
     float: left;
+}
+#SiteMapDataSource1 {
+        background-color:yellow;
+        float:left;
+        list-style: none;
+
+}
+#Menu1 {
+    background-color:yellow;
+    margin-bottom:20px;
+    width:100%;
+    height:35px;
+}
+.tableItem {
+    text-align:left;
+    float:left;
+}
+footer {
+    background-color:yellow;
+    position:relative;
+    margin-top:100px;
+    margin-bottom:20px;
+    font-size:10px;
 }

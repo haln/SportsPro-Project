@@ -15,7 +15,15 @@
         <%-- <asp:SiteMapPath ID="SiteMapPath1" runat="server" />
             --%>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
-        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu><a href="Map.aspx">Sitemap</a>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" DynamicMenuItemStyle-BackColor="yellow" DynamicHoverStyle-BackColor="gray" CssClass="static" StaticEnableDefaultPopOutImage="False">
+<DynamicHoverStyle BackColor="Gray"></DynamicHoverStyle>
+
+<DynamicMenuItemStyle BackColor="Yellow"></DynamicMenuItemStyle>
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle BorderStyle="None" Font-Underline="False" HorizontalPadding="10px" VerticalPadding="7px"  />
+                <asp:MenuItemStyle Font-Underline="False" VerticalPadding="5px"  HorizontalPadding="10px"/>
+            </LevelMenuItemStyles>
+        </asp:Menu>
         <div>
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                 
@@ -23,7 +31,7 @@
         </div>
     </form>
     <footer>
-     <p>To contact us, call us at 800-555-0400 or email us at <a href="“mailto:sportspro@sportsprosoftware.com">Sportspro@sportsprosoftware.com</a></p>     
+     <p>To contact us, call us at 800-555-0400 or email us at <a href="mailto:sportspro@sportsprosoftware.com">Sportspro@sportsprosoftware.com</a></p>     
     <asp:ContentPlaceHolder id="footer" runat="server">
             </asp:ContentPlaceHolder>
     </footer>

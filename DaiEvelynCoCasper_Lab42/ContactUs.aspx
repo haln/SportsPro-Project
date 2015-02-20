@@ -10,20 +10,20 @@
     </p>
     <table>
         <tr>
-        <td>Phone:</td>
+        <td class="tableItem">Phone:</td>
             <td>1-800-555-0400<br/>Weekdays, 8 to Pacific Time</td>
             <td></td>
         </tr>
         <tr>
-        <td>E-mail:</td>
-            <td><a href="“mailto:sportspro@sportsprosoftware.com">Sportspro@sportsprosoftware.com</a></td>
+        <td class="tableItem">E-mail:</td>
+            <td><a href="mailto:sportspro@sportsprosoftware.com">Sportspro@sportsprosoftware.com</a></td>
         </tr>
         <tr>
-        <td>Fax:</td>
+        <td class="tableItem">Fax:</td>
             <td>1-559-555-2732</td>
         </tr>
         <tr>
-        <td>Address:</td>
+        <td class="tableItem">Address:</td>
             <td>SportsPro Software, Inc.<br/>1500 N.Main Street<br/>Fewsno, California 93710</td>
         </tr>
         </table>
